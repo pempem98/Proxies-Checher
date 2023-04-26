@@ -1,0 +1,11 @@
+A. Input:
+- List proxy with username, password in csv type
+- URL that we want to scrape
+- Selector of the elements. Multiple?
+
+B. Output:
+CSV file contains:
+- Column 1: IP:Port of the proxy
+- Column 2: Username/Password of the proxy
+- Column 3: The inner context of the elements that matches the selector
+- ... Column X: If multiple selectors, each column will store inner context of each match object
